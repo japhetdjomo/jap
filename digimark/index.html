@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="icone.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>Degimark4.0</title>
+
+    <script>
+        // Fonction pour ajouter un produit au panier
+        function addToCart(productId) {
+            // Ajouter la logique pour ajouter le produit au panier ici
+            alert('Le produit a été ajouté au panier !');
+        }
+    </script>
+</head>
+<body>
+    
+    
+        <nav class="navbar">
+            <a href="#" class="logo">DIGIMARK4.0</br></a>
+       <!--<a href="a"><img src="logo.png" alt="" class="logo"></a>--> 
+        <div class="nav-links">
+        <ul>
+            <li class="active"><a href="#">Accueil</a></li>
+            <li><a href="produit.html">servives</a></li>
+            <li><a href="#all-produits">A propos</a></li>
+            <li><a href="inscription.html">Formulaire d'Inscription</a></li>
+        </ul>
+        <img src="menu.png" alt="menu hamburger"  class="menu-hamburger">
+         </nav>
+    </div>
+    <header></header>
+
+<script>
+    const menuhamburger =document.querySelector(".menu-hamburger")
+    const navlinks = document.querySelector(".nav-links")
+
+    menuhamburger.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+
+
+
+<section class="text">
+        <h1>Je suis <span class="auto-typing"></span></h1>
+        <p>Penser seulement</br>
+        et DIGIMARK4.0 ajoute de la </br>
+        creativite a votre triomphe.</br></p>
+        <a href="#contact">Me contacter</a>
+        <a href="cv.html" class="cv"> Mon CV</a>
+    </section>
+    
+    <div class="overlay">
+      
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.auto-typing', {
+          strings: ['<i>DIGIMARK4.0</i>', 'Designer graphiste pro.', 'createur de design graphist.', 'createur de site et d aplication web.' ],
+          typeSpeed: 100,
+          backSpeed:100,
+            loop: true,
+            fadeOut: true,
+            fadeOutClass: 'typed-fade-out',
+            fadeOutDelay: 500,
+           // shuffle: true,
+        });
+      </script>
+
+</body>
+</html>
