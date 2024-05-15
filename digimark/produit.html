@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <script>
         // Fonction pour ajouter un produit au panier
@@ -154,8 +153,8 @@
                <label for="name">Nom :</label>
                <input type="text" id="name" name="name" required>
     
-               <label for="name">Telephone :</label>
-               <input type="number" id="name" name="number" required>
+               <label for="phone">Telephone :</label>
+               <input type="text" id="phone" name="phone" required>
     
                <label for="email">Email :</label>
                <input type="email" id="email" name="email" required>
@@ -166,19 +165,17 @@
              
               <!-- ... Code HTML précédent ... -->
               
-              <label for="payment">Moyen de paiement :</label>
-              <input type="radio" id="orange-money" name="payment" value="orange-money" required>
-              <label for="orange-money">Orange Money</label>
+             <label for="orange-money">Moyen de paiement :</label>
+<input type="radio" id="orange-money" name="payment" value="orange-money" required>
+<label for="orange-money">Orange Money</label>
+
+<input type="radio" id="mtn-money" name="payment" value="mtn-money" required>
+<label for="mtn-money">MTN Money</label>
               
-              <input type="radio" id="mtn-money" name="payment" value="mtn-money" required>
-              <label for="mtn-money">MTN Money</label>
-              
-              <labelfor="order">Commande :</label>
-              <textarea id="order" name="order" required></textarea>
+            <label for="order">Commande :</label>
+            <textarea id="order" name="order" required></textarea>
     
-              <button class="add-to-cart" type="submit">Passer la commande</button>
-    
-    
+            <button class="add-to-cart" type="submit">Passer la commande</button>
         </form>
     </div>
 </body>
